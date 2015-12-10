@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
 
-
+  get '/campaign' => 'pages#campaign'
   get '/about' => 'pages#about'
   get '/collection' => 'pages#collection'
 

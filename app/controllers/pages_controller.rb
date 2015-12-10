@@ -8,5 +8,8 @@ class PagesController < ApplicationController
 
 	def collection
 	end
+
+	def campaign
+	end
 	
 end
