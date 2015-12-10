@@ -13,6 +13,8 @@ ul {
 	text-align: center;
 }
 
+
+
 li {
 	list-style-type: none;
 }
@@ -110,10 +112,10 @@ h1 {
     -moz-transition: all .35s;
     transition: all .35s;
 }
-.navbardefault.affix #logcollection1 {
+.navbar-default.affix #logcollection1 {
     opacity: 0;
 }
-.navbardefault.affix #logocollection2 {
+.navbar-default.affix #logocollection2 {
     opacity: 1;
 }
 /* logo-fix:end */
@@ -124,11 +126,13 @@ h1 {
 
 
 
+.nav .navbar-nav .navbar-right ul {
+	color: black;
+}
 
 
 
-
-.navbardefault {
+.navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
@@ -137,7 +141,7 @@ h1 {
     transition: all .35s;
 }
 
-.navbardefault .navbar-header .navbar-brand {
+.navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -145,34 +149,38 @@ h1 {
 
 }
 
-.navbardefault .navbar-header .navbar-brand:hover,
-.navbardefault .navbar-header .navbar-brand:focus {
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
 }
 
-.navbardefault .nav > li>a,
-.navbardefault .nav>li>a:focus {
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     color: #222;
 }
 
-.navbardefault .nav > li>a:hover,
-.navbardefault .nav>li>a:focus:hover {
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
     color: rgb(143,202,234);
 }
 
-.navbardefault .nav > li.active>a,
-.navbardefault .nav>li.active>a:focus {
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
     color:rgb(143,202,234)!important;
     background-color: transparent;
 }
 
-.navbardefault .nav > li.active>a:hover,
-.navbardefault .nav>li.active>a:focus:hover {
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
 }
+
+
+
+
 
 @media only screen and (max-width: 992px ){
 
@@ -189,6 +197,7 @@ h1 {
 		display: block;
 		background: #555;
 	}
+
 
 
 
