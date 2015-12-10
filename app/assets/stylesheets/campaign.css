@@ -1,12 +1,19 @@
 .campaign1 img {
 
 	display: block;
-	width: 75%;
+	width: 85%;
 	padding-top: 80px;
 	margin:auto;
 
 }
+.double1 img {
 
+	display: block;
+	width: 90%;
+	padding-top: 40px;
+	margin:auto;
+
+}
 .campaign2 img {
 
 	display: block;
@@ -19,7 +26,7 @@
 .campaign3 img {
 
 	display: block;
-	width: 75%;
+	width: 85%;
 	padding-top: 40px;
 	margin:auto;
 
@@ -39,7 +46,24 @@
 .campaign5 img {
 
 	display: block;
-	width: 75%;
+	width: 85%;
+	padding-top: 40px;
+	margin:auto;
+
+}
+
+.double2 img {
+
+	display: block;
+	width: 90%;
+	padding-top: 40px;
+	margin:auto;
+
+}
+.double3 img {
+
+	display: block;
+	width: 90%;
 	padding-top: 40px;
 	margin:auto;
 
@@ -57,7 +81,7 @@
 .campaign7 img {
 
 	display: block;
-	width: 75%;
+	width: 85%;
 	padding-top: 40px;
 	margin:auto;
 
@@ -75,7 +99,7 @@
 .campaign9 img {
 
 	display: block;
-	width: 75%;
+	width: 85%;
 	padding-top: 40px;
 	margin:auto;
 
@@ -93,7 +117,7 @@
 .campaign11 img {
 
 	display: block;
-	width: 75%;
+	width: 85%;
 	padding-top: 40px;
 	margin:auto;
 
