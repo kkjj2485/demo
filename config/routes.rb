@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   resources :orders
+  get '/thankyou' => 'pages#thankyou'
   get '/campaign' => 'pages#campaign'
   get '/about' => 'pages#about'
   get '/collection' => 'pages#collection'

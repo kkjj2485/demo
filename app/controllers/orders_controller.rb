@@ -9,7 +9,7 @@ class OrdersController < ApplicationController
 
     @order = Order.new(order_params)
     if @order.save
-      redirect_to collection_path, notice: "Message sent."
+      redirect_to thankyou_path, notice: ""
     else
       flash[:danger] = '請輸入您的資料！謝謝'
       redirect_to new_order_path, notice: ""

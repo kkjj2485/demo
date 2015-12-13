@@ -11,5 +11,8 @@ class PagesController < ApplicationController
 
 	def campaign
 	end
+
+	def thankyou
+	end
 	
 end

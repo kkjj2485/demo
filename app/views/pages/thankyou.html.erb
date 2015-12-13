@@ -19,8 +19,8 @@
 
                 <a href="/"><div class="logo-wrapper">
 
-                    <img id="logocollection1" class="logo" src="/assets/logo.png">
-                    <img id="logocollection2" class="logo" src="/assets/logoblack.png">
+                    <img id="logocollection1" class="logo" src="assets/logo.png">
+                    <img id="logocollection2" class="logo" src="assets/logoblack.png">
                 </div>
                 </a>
                 <!-- logo-fix:end -->
@@ -36,7 +36,7 @@
                     </li> 
                    
                     <li>
-                      
+                    	
                         <%= link_to 'Collection', collection_path, class: 'page-scroll' %>
                         
                        
@@ -47,36 +47,4 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-<div class="orderbackground">
-
-
-<div class="row">
-  <div class="col-md-4 col-md-offset-4">
-
-    <div class="orderform">
-
-      <%= form_for @order do |f| %>
-        <div class="orderformfield">
-         
-          <%= f.text_field :name, class: 'form-control' %>
-        </div>
-        <div class="orderformfield">
-          
-          <%= f.email_field :email, class: 'form-control',:placeholder => "email" %>
-        </div>
-        <div class="lastorderfield">
-        <div class="orderformfield">
-          <%= f.label :phone %>
-          <%= f.text_field:phone, class: 'form-control' %>
-        </div>
-        </div>
-        <%= f.submit '現在預約', class: 'orderbutton' %>
-      <% end %>
-    </div>
-
-  </div>
-</div>
-
-</div>
 
