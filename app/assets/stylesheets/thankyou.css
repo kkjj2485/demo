@@ -1,0 +1,26 @@
+.thankyou {
+    margin-top: 150px;
+    background-color: rgb(217,223,246);
+    color: rgb(171,165,165);
+    padding-top: 30px;
+}
+
+.thankyou p {
+    font-size: 30px;
+    color: white;   
+}
+
+.flower {
+    margin-top: 20px;
+    margin-left: 43%;
+}
+
+.finalmessage {
+    margin-top: 50px;   
+    padding-bottom: 50px;
+}
+
+.finalmessage p {
+
+    font-size: 25px;
+}
