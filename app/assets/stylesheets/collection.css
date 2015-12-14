@@ -13,7 +13,9 @@ ul {
 	text-align: center;
 }
 
-
+.secondnavcolor{
+	color: black;
+}
 
 li {
 	list-style-type: none;
