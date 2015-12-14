@@ -14,6 +14,7 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'font-awesome-sass', '4.2.0'
 
 gem 'bootstrap-sass', '3.3.5'
 

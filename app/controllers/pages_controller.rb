@@ -14,5 +14,9 @@ class PagesController < ApplicationController
 
 	def thankyou
 	end
+
+	def flat05
+	end
+
 	
 end

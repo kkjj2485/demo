@@ -1,0 +1,17 @@
+.flats {
+	padding-top: 80px;
+	width:80%;
+	margin: auto;
+}
+
+
+@media(max-width:768px) {
+
+.flats {
+		padding-top: 200px;
+		height: 200px;
+}
+
+
+
+}
