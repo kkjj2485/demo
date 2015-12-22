@@ -3,7 +3,6 @@ body {
 		font-size: 16px;
 }
 
-
 .header, 
 ul {
 	margin: 0;
@@ -60,7 +59,7 @@ h1 {
 
 .productlist {
 
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 #menu-switch {
