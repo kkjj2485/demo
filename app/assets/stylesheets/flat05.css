@@ -1,17 +1,8 @@
-.flats {
-	padding-top: 80px;
-	width:80%;
-	margin: auto;
+.productview {
+	margin-top: 100px;
+
 }
 
-
-@media(max-width:768px) {
-
-.flats {
-		padding-top: 120px;
-		width: 100%;
-}
-
-
-
+.productview {
+	height: 80%;
 }
