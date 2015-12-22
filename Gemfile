@@ -13,9 +13,10 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
-
 gem 'font-awesome-sass', '4.2.0'
 
+gem 'activeadmin'
+gem 'devise'
 gem 'bootstrap-sass', '3.3.5'
 
 # Use SCSS for stylesheets
