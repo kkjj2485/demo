@@ -22,4 +22,5 @@ class OrdersController < ApplicationController
       params.require(:order).permit(:name, :email, :phone)
     end
 
+ 
 end
